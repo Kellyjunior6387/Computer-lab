@@ -1,0 +1,6 @@
+def tree_ref(tree, indices):
+    result = tree
+    for index in indices:
+        result = result[index]
+    return result
+
